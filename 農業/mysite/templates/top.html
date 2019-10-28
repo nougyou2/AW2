@@ -1,0 +1,24 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+    <title>top</title>
+</head>
+
+<body>
+<h1>
+これはトップページ
+</h1>
+<div>
+    <a href="{% url 'app:index' %}">マップ</a><br>
+</div>
+<div>
+    <a href="{% url 'app02:re' %}">再設定</a><br>
+</div>
+</body>
+
+</html>
+
+
